@@ -1,0 +1,12 @@
+.flag {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: relative;
+    top: -20px; 
+    margin-bottom: -20px;
+    z-index: 2;
+}

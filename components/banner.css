@@ -1,0 +1,20 @@
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url("../images/Banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.container-banner h1 {
+    font-size: 48px;
+}
+
+.container-banner p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+.banner:hover {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,1)), url("../images/Banner.jpeg");
+    background-size: 110%;
+}
